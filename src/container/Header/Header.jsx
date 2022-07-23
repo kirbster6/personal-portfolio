@@ -26,7 +26,8 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
-            <span>👋</span>
+            {/* <span>👋</span> */}
+            <img src={ images.kirby_wave } alt='kirby_wave' />
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I am</p>
               <h1 className="head-text">Kirby!</h1>
@@ -46,13 +47,13 @@ const Header = () => {
         className="app__header-img"
       >
         <img src={images.profile_mine} alt="profile_bg" />
-        <motion.img
+        {/* <motion.img
           whileInView={{ scale: [0,1] }}
           transition={{ duration: 1 , ease: 'easeInOut'}}
           src={images.circle}
           alt="profile_circle"
           className="overlay_circle"
-        />
+        /> */}
       </motion.div>
 
       <motion.div

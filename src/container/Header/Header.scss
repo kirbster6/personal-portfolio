@@ -1,6 +1,7 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
+  background-image: linear-gradient(to right, #05D6D9 , #F907FC);
+  // background: url("../../assets/bgIMG.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -58,6 +59,18 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
+
+  .badge-cmp {
+    img {
+      width: 60px;
+      height: 60px;
+
+      @media screen and (min-width: 2000px) {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
 
   .badge-cmp,
   .tag-cmp {

@@ -142,6 +142,9 @@
         border-radius: 10px;
         background-color: #fff;
         top: -25px;
-        z-index: -1;
+
+        @media screen and (min-width: 2000px) {
+            top: -45px;
+        }
     }
 }

@@ -36,6 +36,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import kirbylogo from '../assets/kirby_logo.png';
+import kirby_wave from '../assets/kirby_wave.png';
 
 export default {
   email,
@@ -73,4 +74,5 @@ export default {
   skype,
   spotify,
   kirbylogo,
+  kirby_wave,
 };
